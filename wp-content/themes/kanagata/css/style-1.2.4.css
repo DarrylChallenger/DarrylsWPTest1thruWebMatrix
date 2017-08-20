@@ -1,0 +1,1437 @@
+/*
+Theme Name: kanagata
+Theme URI: http://www.findxfine.com/kanagata-2/995560376.html
+Description: The theme has flexible top page customization. You can do customization from the admin menu.
+Author: Hiroshi Sawai
+Author URI: http://www.info-town.jp
+Version: 1.2.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: white, light, two-columns, left-sidebar, right-sidebar, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, theme-options, translation-ready
+Text Domain: kanagata
+*/
+/* -------------------------------------------------------------------
+# WordPress comment
+------------------------------------------------------------------- */
+.comments .comment-list {
+  list-style-type: none;
+  margin-bottom: 2.5rem;
+}
+.comments .comment-list .comment-body {
+  padding: 1.625rem 0;
+  border-top: 1px dotted #e1e1e1;
+}
+.comments .comment-list .comment-body p {
+  margin-bottom: 1rem;
+}
+.comments .comment-list .comment-body .comment-author {
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+.comments .comment-list .comment-body .comment-meta {
+  margin: 0.5rem 0 1rem;
+}
+.comments .comment-list .comment-body .comment-meta a {
+  color: gray;
+}
+.comments .comment-list .comment-body .reply {
+  margin-top: 2rem;
+}
+.comments .comment-list .comment-body .reply a {
+  padding: 0.5rem;
+  border-radius: 3px;
+  border: 1px solid #e1e1e1;
+}
+.comments .comment-list .comment-body .comment-reply-link:before {
+  content: "\f064";
+  font-family: FontAwesome;
+}
+.comments .comment-respond input[type=text] {
+  width: 100%;
+}
+.comments .comment-respond textarea {
+  width: 100%;
+  background: #F5F5F5;
+}
+
+.children {
+  list-style-type: none;
+}
+
+/* -------------------------------------------------------------------
+# heading
+------------------------------------------------------------------- */
+.heading-default, .index__customization__header__title h1, .single-post__header__title h1, .static-page__header__title h1, .category__header__title h1 {
+  margin: 0 0 3.0rem !important;
+  padding: 0.5rem 1em;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  color: #333;
+  background: #e1e1e1;
+  font-size: 1.5rem !important;
+  line-height: 1.25em;
+}
+
+.heading-primary, .category-post__header__title h2, .main .index-post__header .index-post__header__title, .main .index-post__body h2 {
+  margin: 0 0 2.5rem !important;
+}
+
+.heading-secondary, .main .index-post__body h3 {
+  margin: 0 0 20px;
+  color: #333;
+  font-weight: bold;
+}
+
+/* -------------------------------------------------------------------
+# Theme customization
+------------------------------------------------------------------- */
+/* -------------------------------------------------------------------
+# single post
+------------------------------------------------------------------- */
+/* -------------------------------------------------------------------
+# static page
+------------------------------------------------------------------- */
+/* -------------------------------------------------------------------
+# category
+------------------------------------------------------------------- */
+/*
+## category header
+*/
+/*
+## category individual header
+*/
+/* -------------------------------------------------------------------
+# WordPress required image style
+
+------------------------------------------------------------------- */
+/*
+## image align
+
+margin is set by $font-size base
+*/
+.aligncenter {
+  display: block;
+  margin: 0.5rem auto 2rem;
+}
+
+.alignright {
+  display: block;
+  float: right;
+  margin: 0.5rem 0 2rem 2rem;
+}
+
+.alignleft {
+  display: block;
+  float: left;
+  margin: 0.5rem 2rem 2rem 0;
+}
+
+.wp-caption {
+  margin-bottom: 2rem;
+  max-width: 100%;
+}
+
+.wp-caption-text {
+  margin: 0.5rem 0 !important;
+  padding: 4px !important;
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+}
+
+/*
+## eye cahtch (thumbnail)
+
+```
+<div>
+   <?php if ( has_post_thumbnail() ) : ?>
+      <div class="post-thumbnail"><?php the_post_thumbnail(); ?></div>
+   <?php endif; ?>
+   <div><?php the_content( 'readmore &raquo;' ); ?></div>
+</div>
+```
+*/
+.attachment-post-thumbnail {
+  margin: 0 24px 16px 0;
+  float: left;
+}
+
+/*
+# global menu
+
+global menu tyle. Specify the class name in the argument of wp_nav_menu
+```
+wp_nav_menu( array(
+    'theme_location'  => 'global',
+    'container_class' => 'menu-global-container',
+    'menu_class'      => 'menu-global'
+)); ?>
+```
+*/
+.menu-global-container {
+  margin: 0 0 1rem;
+  padding: 0;
+}
+
+.menu-global-container ul {
+  margin: 0;
+  /* override bootstrap */
+  padding: 0;
+  /* override bootstrap */
+}
+
+.menu-global-container .menu-toggle {
+  display: none;
+  padding: 0;
+}
+
+.menu-global {
+  border-bottom: 0;
+  display: block;
+}
+
+.menu-global-container.toggled-on {
+  border-bottom: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-global-container li {
+  border: 0;
+  display: inline-block;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  position: relative;
+}
+
+.menu-global-container a {
+  display: inline-block;
+  padding: 0 0.75rem;
+  white-space: nowrap;
+  font-size: 1.1875rem;
+}
+
+.menu-global-container ul ul {
+  background-color: #e1e1e1;
+  float: left;
+  margin: 0;
+  position: absolute;
+  top: 2.0rem;
+  left: -999em;
+  z-index: 99999;
+}
+
+.menu-global-container li li {
+  border: 0;
+  display: block;
+  height: auto;
+  line-height: 1.1;
+}
+
+.menu-global-container ul ul ul {
+  left: -999em;
+  top: 0;
+}
+
+.menu-global-container ul ul a {
+  padding: 1.5rem 0.75rem;
+  white-space: normal;
+  width: 176px;
+}
+
+.menu-global-container li:hover > a,
+.menu-global-container li.focus > a {
+  background-color: #e1e1e1;
+}
+
+.menu-global-container ul ul a:hover,
+.menu-global-container ul ul li.focus > a {
+  background-color: white;
+}
+
+.menu-global-container ul li:hover > ul,
+.menu-global-container ul li.focus > ul {
+  left: auto;
+}
+
+.menu-global-container ul ul li:hover > ul,
+.menu-global-container ul ul li.focus > ul {
+  left: 100%;
+}
+
+.menu-global-container .menu-item-has-children > a,
+.menu-global-container .page_item_has_children > a {
+  padding-right: 26px;
+}
+
+.menu-global-container .menu-item-has-children > a:after,
+.menu-global-container .page_item_has_children > a:after {
+  -webkit-font-smoothing: antialiased;
+  content: ">>";
+  display: inline-block;
+  font: normal 8px/1 Genericons;
+  position: absolute;
+  right: 0.75rem;
+  top: 1rem;
+  vertical-align: text-bottom;
+}
+
+.menu-global-container li .menu-item-has-children > a,
+.menu-global-container li .page_item_has_children > a {
+  padding-right: 20px;
+  width: 168px;
+}
+
+.menu-global-container .menu-item-has-children li.menu-item-has-children > a:after,
+.menu-global-container .menu-item-has-children li.page_item_has_children > a:after,
+.menu-global-container .page_item_has_children li.menu-item-has-children > a:after,
+.menu-global-container .page_item_has_children li.page_item_has_children > a:after {
+  content: ">>";
+  right: 8px;
+  top: 20px;
+}
+
+/*
+# extra menu
+
+extra menu.
+
+```
+wp_nav_menu( array(
+    'theme_location'  => 'extra',
+    'container_class' => 'menu-extra-container',
+    'menu_class'      => 'menu-extra'
+)); ?>
+```
+*/
+.menu-extra-container {
+  margin: 0;
+  padding: 0;
+}
+
+.menu-extra-container ul {
+  margin: 0;
+  /* override bootstrap */
+  padding: 0;
+  /* override bootstrap */
+}
+
+.menu-extra-container .menu-toggle {
+  display: none;
+  padding: 0;
+}
+
+.menu-extra-container .menu-extra {
+  border-bottom: 0;
+  display: block;
+}
+
+.menu-extra-container.toggled-on {
+  border-bottom: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-extra-container li {
+  display: inline-block;
+  position: relative;
+  height: 2rem;
+  border: 0;
+  font-size: 0.875rem;
+  line-height: 2rem;
+}
+
+.menu-extra-container a {
+  display: inline-block;
+  padding: 0 0.825rem;
+  white-space: nowrap;
+}
+
+.menu-extra-container ul ul {
+  z-index: 10;
+  background-color: #e1e1e1;
+  float: left;
+  margin: 0;
+  position: absolute;
+  top: 2rem;
+  left: -999em;
+  z-index: 99999;
+}
+
+.menu-extra-container li li {
+  border: 0;
+  display: block;
+  height: auto;
+  line-height: 1.1;
+}
+
+.menu-extra-container ul ul ul {
+  left: -999em;
+  top: 0;
+}
+
+.menu-extra-container ul ul a {
+  padding: 1.125rem 0.825rem;
+  white-space: normal;
+  width: 176px;
+}
+
+.menu-extra-container li:hover > a,
+.menu-extra-container li.focus > a {
+  background-color: white;
+}
+
+.menu-extra-container ul ul a:hover,
+.menu-extra-container ul ul li.focus > a {
+  background-color: white;
+}
+
+.menu-extra-container ul li:hover > ul,
+.menu-extra-container ul li.focus > ul {
+  left: auto;
+}
+
+.menu-extra-container ul ul li:hover > ul,
+.menu-extra-container ul ul li.focus > ul {
+  left: 100%;
+}
+
+.menu-extra-container .menu-item-has-children > a,
+.menu-extra-container .page_item_has_children > a {
+  padding-right: 26px;
+}
+
+.menu-extra-container .menu-item-has-children > a:after,
+.menu-extra-container .page_item_has_children > a:after {
+  -webkit-font-smoothing: antialiased;
+  content: ">>";
+  display: inline-block;
+  font: normal 8px/1 Genericons;
+  position: absolute;
+  right: 0.5rem;
+  top: 0.675rem;
+  vertical-align: text-bottom;
+}
+
+.menu-extra-container li .menu-item-has-children > a,
+.menu-extra-container li .page_item_has_children > a {
+  padding-right: 20px;
+  width: 168px;
+}
+
+.menu-extra-container .menu-item-has-children li.menu-item-has-children > a:after,
+.menu-extra-container .menu-item-has-children li.page_item_has_children > a:after,
+.menu-extra-container .page_item_has_children li.menu-item-has-children > a:after,
+.menu-extra-container .page_item_has_children li.page_item_has_children > a:after {
+  content: ">>";
+  right: 8px;
+  top: 20px;
+}
+
+/*
+# side menu
+
+side menu style.
+
+```
+wp_nav_menu( array(
+    'theme_location'  => 'side',
+    'container_class' => 'menu-side-container',
+    'menu_class'      => 'menu-side'
+)); ?>
+```
+*/
+.menu-side-container {
+  margin: 0 0 3rem;
+  padding: 0;
+}
+
+.menu-side-container ul,
+.widget_nav_menu ul {
+  margin: 0;
+  /* override bootstrap */
+  padding: 0;
+  /* override bootstrap */
+}
+
+.menu-side-container li,
+.widget_nav_menu li {
+  padding: 0.5rem 0;
+  line-height: 1.625rem;
+  border-bottom: 1px dotted #e1e1e1;
+}
+
+.menu-side-container li:before,
+.widget_nav_menu li:before {
+  content: "  \f105 ";
+  font-family: FontAwesome;
+}
+
+.menu-side-container a,
+.widget_nav_menu a {
+  display: inline-block;
+  padding: 0 0.825rem;
+  white-space: nowrap;
+}
+
+/* 768px and up */
+@media (min-width: 768px) {
+  .menu-side-container ul.sub-menu ul,
+  .widget_nav_menu ul.sub-menu {
+    margin-left: 1rem !important;
+  }
+}
+.menu-side-container .sub-menu li,
+.widget_nav_menu .sub-menu li {
+  display: block;
+  padding: 0.5rem 0 0;
+  height: auto;
+  border: none;
+  line-height: 1.625rem;
+}
+
+/*
+# footer menu
+
+```
+wp_nav_menu( array(
+    'theme_location'  => 'footer',
+    'container_class' => 'menu-footer-container',
+    'menu_class'      => 'menu-footer'
+)); ?>
+```
+*/
+.menu-footer-container {
+  z-index: 1;
+  margin: 1.25rem 2rem 2.5rem;
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  .menu-footer-container {
+    margin: 0;
+    /* for iPhone */
+  }
+}
+.menu-footer-container ul {
+  margin: 0;
+  /* override bootstrap */
+  padding: 0;
+  /* override bootstrap */
+  list-style-type: none;
+}
+
+/* 768px and up */
+@media (min-width: 768px) {
+  .menu-footer-container li {
+    float: left;
+  }
+}
+.menu-footer-container li {
+  padding: 0.5rem 0;
+  line-height: 1.625rem;
+  border: none;
+}
+
+.menu-footer-container a {
+  display: inline-block;
+  padding: 0 0.75rem;
+  white-space: nowrap;
+}
+
+.menu-footer-container .sub-menu {
+  clear: both;
+}
+
+/* 768px and up */
+@media (min-width: 768px) {
+  .menu-footer-container ul.sub-menu {
+    margin-left: 1rem !important;
+  }
+}
+.menu-footer-container .sub-menu li {
+  display: block;
+  float: none;
+  padding: 0.5rem 0 0;
+  height: auto;
+  border: none;
+  line-height: 1.625rem;
+}
+
+/* -------------------------------------------------------------------
+# WordPress post style
+
+post style. post base style is bootstrap style.
+------------------------------------------------------------------- */
+.main {
+  /*
+  h1-h6 is bootstrap style
+  */
+  /*
+  thead, tfoot, caption, col, colgroup, tbody, tr is bootstrap style
+  */
+  /*
+  abbr, cite, ins, del, code, sub, sup is bootstrap style
+  */
+  /*
+  ## index post title
+  */
+  /*
+  ## index post content
+  */
+}
+.main h1 {
+  margin: 3.875rem 0 2rem;
+}
+.main h2 {
+  margin: 3.5rem 0 2rem;
+}
+.main h3 {
+  margin: 3.25rem 0 2rem;
+}
+.main h4 {
+  font-size: 1.25rem;
+  margin: 3rem 0 2rem;
+}
+.main h5 {
+  font-size: 1.25rem;
+  margin: 3rem 0 2rem;
+}
+.main h6 {
+  font-size: 1.25rem;
+  margin: 3rem 0 2rem;
+}
+.main p {
+  margin-bottom: 2rem;
+}
+.main blockquote {
+  margin-bottom: 2rem;
+}
+.main table {
+  margin-bottom: 2rem;
+  border: 1px solid #ddd;
+}
+.main th {
+  padding: 5.33333px 8px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  line-height: 32px;
+}
+.main td {
+  padding: 5.33333px 8px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  line-height: 32px;
+}
+.main dl {
+  margin-bottom: 2rem;
+}
+.main dt {
+  margin-bottom: 8px;
+  font-size: 16px;
+  line-height: 32px;
+}
+.main dd {
+  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 32px;
+}
+.main ul {
+  margin-bottom: 2rem;
+}
+.main ol {
+  margin-bottom: 2rem;
+}
+.main li {
+  /* bootstrap */
+  line-height: 2em;
+}
+.main address {
+  margin-bottom: 2rem;
+}
+.main pre {
+  margin-bottom: 2rem;
+}
+.main q {
+  font-style: italic;
+}
+.main .index-post__body .index-post__body__thumbnail {
+  margin: 0 1.25rem 0.625rem 0;
+  float: left;
+}
+
+/*
+## more link paginage
+
+@name more link  
+
+```
+<div><a class="more-link" href="#">read more</a></div>
+```
+*/
+.more-link {
+  display: inline-block;
+  clear: both;
+  margin-right: 1rem;
+  text-align: right;
+}
+
+/*
+## single paginate
+
+* <- previous
+* -> next
+
+@name nav single
+
+```
+<div class="nav_single">
+    <span class="nav-previous"><span class="meta-nav">&larr;</span> Previous Post</span>
+    <span class="nav-next">Next Post <span class="meta-nav">&rarr;</span></span>
+</div><!-- nav_single -->
+```
+*/
+.nav-single {
+  overflow: hidden;
+  margin: 1rem 0.5rem;
+  padding: 0.5rem 0.5rem;
+}
+.nav-single .nav-previous {
+  display: block;
+  float: left;
+}
+.nav-single .nav-next {
+  display: block;
+  float: right;
+}
+
+/*
+## multi page paginate
+*/
+.wp-link-pages {
+  margin: 1.5em 0;
+}
+
+.wp-link-pages p {
+  text-align: center;
+}
+
+/*
+## category paginate
+
+@name pager  
+@requires _variables.scss  
+@variable $pager-color  
+@variable $pager-background  
+@variable $pager-radius
+
+```
+<div class="pager">
+<a href="" class="prev page-numbers">« 前へ</a>
+<a href="" class="page-numbers">1</a>
+<span class="page-numbers current">2</span>
+<a href="" class="page-numbers">3</a>
+<a href="" class="next page-numbers">次へ »</a>
+</div>
+
+<div class="pager-radius">
+<a href="" class="prev page-numbers">« 前へ</a>
+<a href="" class="page-numbers">1</a>
+<span class="page-numbers current">2</span>
+<a href="" class="page-numbers">3</a>
+<a href="" class="next page-numbers">次へ »</a>
+</div>
+```
+*/
+.pager {
+  margin: 1rem auto 0;
+  padding: 0.5rem 0;
+  line-height: 2rem;
+  text-align: center;
+}
+.pager a {
+  color: #333;
+  text-decoration: none;
+}
+.pager .page-numbers {
+  padding: 0.4rem 0.6rem;
+}
+.pager .page-numbers:hover {
+  color: #333;
+  background: #eee;
+}
+.pager .current {
+  padding: 0.4rem 0.6rem;
+  color: #333;
+  background: #eee;
+}
+.pager .next {
+  border: 0 none;
+}
+.pager .prev {
+  border: 0 none;
+}
+
+.screen-reader-text {
+  display: none;
+}
+
+/*
+## post meta information
+
+@name list meta
+@requires _list.scss
+@variable $font-size  
+@variable $color-light
+
+```
+<ul class="list-meta">
+  <li class="list-meta__item--date">posted time</li>
+  <li class="list-meta__item--category">category</li>
+  <li class="list-meta__item--author">author</li>
+</ul>
+```
+*/
+.list-meta {
+  margin: 0 0 32px;
+  padding: 0;
+}
+.list-meta .list-meta__item, .list-meta .list-meta__item--category, .list-meta .list-meta__item--tag, .list-meta .list-meta__item--date, .list-meta .list-meta__item--link, .list-meta .list-meta__item--comments {
+  list-style-type: none;
+  padding: 0 16px;
+}
+.list-meta .list-meta__item--category:before {
+  content: "\f07b";
+  font-family: FontAwesome;
+}
+.list-meta .list-meta__item--tag:before {
+  content: "\f02b";
+  font-family: FontAwesome;
+}
+.list-meta .list-meta__item--date:before {
+  content: "\f073";
+  font-family: FontAwesome;
+}
+.list-meta .list-meta__item--link:before {
+  content: "\f0c1";
+  font-family: FontAwesome;
+}
+.list-meta .list-meta__item--comments:before {
+  content: "\f075";
+  font-family: FontAwesome;
+}
+
+/* -------------------------------------------------------------------
+# WordPress required class style
+------------------------------------------------------------------- */
+.sticky {
+  margin: 0 0 32px;
+  padding: 20px;
+  border: 1px solid silver;
+}
+
+.gallery-caption {
+  background-color: rgba(0, 0, 0, 0.7);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 12px;
+  line-height: 1.5;
+  margin: 0;
+  max-height: 50%;
+  opacity: 0;
+  padding: 6px 8px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: left;
+  width: 100%;
+}
+
+.gallery-caption:before {
+  content: "";
+  height: 100%;
+  min-height: 49px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.bypostauthor > article .fn:before {
+  content: "\f408";
+  margin: 0 2px 0 -2px;
+  position: relative;
+  top: -1px;
+}
+
+/* -------------------------------------------------------------------
+# thumbnail (eye catch)
+------------------------------------------------------------------- */
+/*
+## attachment-post-thumbnail
+
+```
+<div>
+   <?php if ( has_post_thumbnail() ) : ?>
+      <div class="post-thumbnail"><?php the_post_thumbnail(); ?></div>
+   <?php endif; ?>
+   <div><?php the_content( 'readmore &raquo;' ); ?></div>
+</div>
+```
+*/
+.attachment-post-thumbnail {
+  margin: 0 24px 16px 0;
+  float: left;
+}
+
+/* -------------------------------------------------------------------
+# index thumbnail
+------------------------------------------------------------------- */
+.index-post__body__thumbnail {
+  margin: 0 1.25rem 0.625rem 0;
+  float: left;
+}
+
+/* -------------------------------------------------------------------
+# category thumbnail
+------------------------------------------------------------------- */
+.category-post__body__thumbnail {
+  margin: 0 1.25rem 0.625rem 0;
+  float: left;
+}
+
+/*
+# WordPress widget
+
+@name widget  
+
+```
+<div id="side">
+  <ul id="sidebar">
+    <li class="widget widget_recent_entries" id="recent-posts-2">
+      <h2 class="widgettitle">Recent Posts</h2>
+      <ul>
+        <li><a href="#">title1</a></li>
+        <li><a href="#">title2</a></li>
+      </ul>
+    </li>
+  </ul>
+</div>
+```
+*/
+.widget {
+  clear: both;
+  margin-bottom: 3rem;
+  font-size: 14px;
+}
+.widget h2 {
+  margin-bottom: 1rem;
+  background: transparent;
+  font-weight: bold;
+  font-size: 16px;
+}
+.widget h4 {
+  line-height: 1.5;
+}
+.widget ul {
+  margin: 0;
+}
+.widget li {
+  clear: both;
+  padding: 0.5rem 0;
+  border-bottom: 1px dotted #e1e1e1;
+  line-height: 1.625;
+  list-style-type: none !important;
+  /* not remove. if it remove, list type is circle. */
+}
+.widget li:last-child {
+  border-bottom: none;
+}
+.widget li:before {
+  content: "\f105  ";
+  font-family: FontAwesome;
+}
+
+/*
+## widget_calender
+
+```
+<ul id="sidebar">
+<li class="widget widget_calendar" id="calendar-2">
+    <div id="calendar_wrap">
+        <table id="wp-calendar">
+        <caption>2013/7/</caption>
+        <thead>
+        <tr>
+            <th title="mon" scope="col">mon</th>
+            <th title="tue" scope="col">tue</th>
+            <th title="wed" scope="col">wed</th>
+            <th title="thu" scope="col">thu</th>
+            <th title="fri" scope="col">fri</th>
+            <th title="sat" scope="col">sat</th>
+            <th title="sun" scope="col">sun</th>
+        </tr>
+        </thead>
+        <tfoot>
+        <tr>
+            <td class="pad" id="prev" colspan="3">&nbsp;</td>
+            <td class="pad">&nbsp;</td>
+            <td class="pad" id="next" colspan="3">&nbsp;</td>
+        </tr>
+        </tfoot>
+        <tbody>
+        <tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td>
+        </tr>
+        <tr>
+            <td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td>
+        </tr>
+        <tr>
+            <td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td>
+        </tr>
+        <tr>
+            <td><a title="Hello world!" href="http://shikinohana.localhost/date/2013/07/22">22</a></td><td>23</td><td>24</td><td id="today">25</td><td>26</td><td>27</td><td>28</td>
+        </tr>
+        <tr>
+            <td>29</td><td>30</td><td>31</td>
+            <td colspan="4" class="pad">&nbsp;</td>
+        </tr>
+        </tbody>
+        </table>
+    </div>
+</li>
+</ul>
+```
+*/
+#wp-calendar {
+  width: 100%;
+  border-collapse: collapse;
+}
+#wp-calendar th {
+  text-align: center;
+  border: 1px solid #e1e1e1;
+  background: #e1e1e1;
+}
+#wp-calendar td {
+  text-align: center;
+  border: 1px solid #e1e1e1;
+}
+#wp-calendar tfoot {
+  margin-top: 0.5rem;
+}
+#wp-calendar tfoot td {
+  border: none;
+}
+#wp-calendar a {
+  text-decoration: underline;
+}
+
+/*
+## widget_categories, widget_pages
+*/
+.widget_categories ul,
+.widget_pages ul {
+  margin: 0;
+  /* override bootstrap */
+  padding: 0;
+  /* override bootstrap */
+}
+
+.widget_categories li,
+.widget_pages li {
+  padding: 0.5rem 0;
+  line-height: 1.625rem;
+  border-bottom: 1px dotted #e1e1e1;
+}
+
+.widget_categories li:before,
+.widget_pages li:before {
+  content: "  \f105 ";
+  font-family: FontAwesome;
+}
+
+.widget_categories a,
+.widget_pages a {
+  display: inline-block;
+  padding: 0 0.825rem;
+  white-space: nowrap;
+}
+
+/* 768px and up */
+@media (min-width: 768px) {
+  .widget_categories ul.children,
+  .widget_pages ul.children {
+    margin-left: 1rem !important;
+  }
+}
+.widget_categories .children li,
+.widget_pages .children li {
+  display: block;
+  padding: 0.5rem 0 0;
+  height: auto;
+  border: none;
+  line-height: 1.625rem;
+}
+
+/*
+# widget_nav_menu style defines at _wp-menu.scss
+*/
+/*
+# Smart Phone toggle menu for responsive 
+*/
+#sp_toggle_menu {
+  display: none;
+}
+
+@media only screen and (max-width: 767px) {
+  .menu-global {
+    display: none;
+  }
+
+  .menu-global li {
+    width: 100%;
+  }
+
+  #sp_toggle_menu {
+    display: block;
+    position: relative;
+    width: 100%;
+    background: #e1e1e1;
+  }
+
+  #sp_toggle_menu a {
+    display: block;
+    position: relative;
+    padding: 12px 0 10px;
+    border-bottom: 1px solid #e1e1e1;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  #sp_toggle_menu:before {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    width: 20px;
+    height: 20px;
+    margin-top: -10px;
+    background: #fff;
+  }
+
+  #sp_toggle_menu a:before, #sp_toggle_menu a:after {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    width: 20px;
+    height: 4px;
+    background: #e1e1e1;
+  }
+
+  #sp_toggle_menu a:before {
+    margin-top: -6px;
+  }
+
+  #sp_toggle_menu a:after {
+    margin-top: 2px;
+  }
+}
+/* ---------------------------------------------------------
+# site base style
+---------------------------------------------------------- */
+html {
+  font-size: 1rem;
+}
+
+body {
+  background: #fff;
+  color: #333;
+  font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+  font-size: 1rem;
+  line-height: 1.625rem;
+}
+
+/*
+## base link style use bootstrap
+normal, hover, active, visited, focus
+*/
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  height: auto;
+}
+
+embed {
+  max-width: 100%;
+  vertical-align: middle;
+  height: auto;
+}
+
+table {
+  max-width: 100%;
+}
+
+/*
+## strong, em
+```
+<p>
+<strong>strong</strong><br>
+<em>em</em>
+</p>
+```
+*/
+strong, em {
+  font-style: normal;
+  font-weight: bold;
+  vertical-align: bottom;
+  border: none;
+}
+
+/*
+## form submit
+*/
+/* comments */
+input.submit {
+  padding: 0.5rem;
+  background: #fff;
+  border-radius: 3px;
+  border: 1px solid #e1e1e1;
+}
+
+/* search for widget */
+input#searchsubmit {
+  background: #fff;
+  border-radius: 3px;
+  border: 1px solid #e1e1e1;
+}
+
+@media (max-width: 480px) {
+  input#searchsubmit {
+    display: block;
+    margin-top: 1rem;
+  }
+}
+.searchform label {
+  display: block;
+}
+
+/* -------------------------------------------------------------------
+# link
+------------------------------------------------------------------- */
+/*
+## page top link
+
+```
+<div class="pagetop"><a href="#header">top to page</a></div>
+```
+*/
+.pagetop {
+  margin: 1rem 1rem 2rem 0;
+  clear: both;
+  text-align: right;
+}
+
+/*
+## page back link
+
+```
+<div class="pageback"><a href="#" onclick="history.back(); return false;">back to page</a></div>
+```
+*/
+.pageback {
+  margin: 0.5rem 0;
+  clear: both;
+}
+
+/* -------------------------------------------------------------------
+# layout wrap
+------------------------------------------------------------------- */
+.wrap {
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* -------------------------------------------------------------------
+# container
+------------------------------------------------------------------- */
+.container {
+  /* bootstrap */
+}
+
+/* -------------------------------------------------------------------
+# main-content
+------------------------------------------------------------------- */
+.main-content {
+  padding: 0 1rem;
+}
+
+/* -------------------------------------------------------------------
+# custom-header
+------------------------------------------------------------------- */
+.custom-header {
+  padding: 0 0 3rem;
+}
+
+/* -------------------------------------------------------------------
+# index__customization
+------------------------------------------------------------------- */
+.index__customization {
+  margin-bottom: 4rem;
+}
+
+/* -------------------------------------------------------------------
+# header
+------------------------------------------------------------------- */
+.header {
+  z-index: 1;
+  overflow: visible;
+  padding: 3rem 0 0.5rem;
+}
+
+.header__left {
+  float: left;
+  /*
+  ## logo
+  */
+}
+.header__left .header__logo {
+  float: left;
+  padding: 0.5rem 0 0.25rem;
+}
+.header__left .header__logo h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 2.25em;
+  line-height: 1.625em;
+}
+
+/*
+## description
+*/
+.header__description {
+  clear: both;
+}
+.header__description .header__description__text {
+  margin: 0;
+  padding: 0.5rem 0;
+  color: #999999;
+  font-size: 0.875rem;
+}
+
+.header__right {
+  float: right;
+  /*
+  ## extra menu
+  */
+  /*
+  ## about
+  */
+}
+.header__right .header__menu-extra {
+  padding: 0.625rem 0 0.25em;
+  float: right;
+  font-size: 1rem;
+}
+.header__right .header__about {
+  clear: both;
+}
+.header__right .header__about .header__about__item {
+  margin: 0.125rem 0;
+  padding: 0;
+  text-align: right;
+}
+
+/* -------------------------------------------------------------------
+# global menu
+------------------------------------------------------------------- */
+/* import wp_menu.sass */
+/* -------------------------------------------------------------------
+# breadcrumb
+------------------------------------------------------------------- */
+.breadcrumbs {
+  padding: 0.5rem 0;
+}
+
+/* -------------------------------------------------------------------
+# main
+------------------------------------------------------------------- */
+.main {
+  overflow: hidden;
+}
+
+/* -------------------------------------------------------------------
+# side
+------------------------------------------------------------------- */
+.side {
+  margin-bottom: 3rem;
+}
+.side ul {
+  margin: 0 !important;
+  padding: 0 !important;
+  list-style-type: none;
+}
+
+#sidebar {
+  padding: 1.625rem 2.25rem 2rem;
+}
+
+/* -------------------------------------------------------------------
+# footer
+------------------------------------------------------------------- */
+.footer {
+  padding: 1.25rem;
+}
+
+.footer__copy {
+  clear: both;
+  padding: 1.25rem 1.25rem 0.25rem;
+  text-align: center;
+}
+
+/* -------------------------------------------------------------------
+# print style override bootstrap
+------------------------------------------------------------------- */
+@media print {
+  a[href]:after {
+    content: "" !important;
+  }
+
+  abbr[title]:after {
+    content: "" !important;
+  }
+}
+/* -------------------------------------------------------------------
+# clearfix
+
+```
+<div class="clearfix" style="background: #ccc">
+<p style="float: left;">statement.</p>
+<p style="float: left;">statement.</p>
+</div>
+<div style="margin-top: 45px; background: #eee">statement.</div>
+```
+------------------------------------------------------------------- */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.clearfix {
+  *zoom: 1;
+}

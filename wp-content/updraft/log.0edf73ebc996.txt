@@ -1,0 +1,285 @@
+0000.004 (0) Opened log file at time: Wed, 16 Aug 2017 23:20:02 +0000 on http://darrylswptest.azurewebsites.net
+0000.022 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.5 WP: 4.8.1 PHP: 5.6.31 (cgi-fcgi, Windows NT RD0003FF705BF3 6.2 build 9200 (Windows Server 2012 Datacenter Edition) i586) MySQL: 5.7.9 WPLANG: en_US Server: Microsoft-IIS/8.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 6.7M | 6.8M) multisite: N openssl: OpenSSL 1.0.2k  26 Jan 2017 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.043 (0) Free space on disk containing Updraft's temporary directory: 674.7 MB
+0000.120 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.212 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.304 (0) Set semaphore last lock (fd) time to 2017-08-16 23:20:02
+0000.327 (0) Semaphore lock (fd) complete
+0000.391 (0) Backup run: resumption=0, nonce=0edf73ebc996, begun at=1502925602 (0s ago), job type=backup
+0000.428 (0) Scheduling a resumption (1) after 300 seconds (1502925902) in case this run gets aborted
+0000.560 (0) Checking if we have a zip executable available
+0000.601 (0) Creation of backups of directories: beginning
+0000.681 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0033.694 (0) Total entities for the zip file: 506 directories, 3353 files (0 skipped as non-modified), 45.3 MB
+0033.747 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0034.731 (0) Zip: backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-plugins.zip.tmp: 100 files added (on-disk size: 83.9 KB)
+0035.099 (0) Zip: backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-plugins.zip.tmp: 200 files added (on-disk size: 83.9 KB)
+0035.507 (0) Zip: backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-plugins.zip.tmp: 300 files added (on-disk size: 83.9 KB)
+0035.888 (0) Zip: backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-plugins.zip.tmp: 400 files added (on-disk size: 83.9 KB)
+0036.349 (0) Zip: backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-plugins.zip.tmp: 500 files added (on-disk size: 83.9 KB)
+0036.377 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (7.9 MB, 3353 files batched, 501 (502) added so far); re-opening (prior size: 83.9 KB)
+0051.412 (0) Zip: backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-plugins.zip.tmp: 600 files added (on-disk size: 3106.4 KB)
+0051.917 (0) Zip: backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-plugins.zip.tmp: 700 files added (on-disk size: 3106.4 KB)
+0052.367 (0) Zip: backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-plugins.zip.tmp: 800 files added (on-disk size: 3106.4 KB)
+0052.791 (0) Zip: backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-plugins.zip.tmp: 900 files added (on-disk size: 3106.4 KB)
+0053.341 (0) Zip: backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-plugins.zip.tmp: 1000 files added (on-disk size: 3106.4 KB)
+0053.395 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.9 MB, 3353 files batched, 501 (1003) added so far); re-opening (prior size: 3106.4 KB)
+0063.502 (0) Zip: backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-plugins.zip.tmp: 1100 files added (on-disk size: 4236.7 KB)
+0063.910 (0) Zip: backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-plugins.zip.tmp: 1200 files added (on-disk size: 4236.7 KB)
+0064.428 (0) Zip: backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-plugins.zip.tmp: 1300 files added (on-disk size: 4236.7 KB)
+0064.937 (0) Zip: backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-plugins.zip.tmp: 1400 files added (on-disk size: 4236.7 KB)
+0065.524 (0) Zip: backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-plugins.zip.tmp: 1500 files added (on-disk size: 4236.7 KB)
+0065.576 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (6.9 MB, 500 (1503) files added so far); re-opening (prior size: 4236.7 KB)
+0079.437 (0) Zip: backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-plugins.zip.tmp: 1600 files added (on-disk size: 6619.1 KB)
+0079.985 (0) Zip: backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-plugins.zip.tmp: 1700 files added (on-disk size: 6619.1 KB)
+0080.671 (0) Zip: backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-plugins.zip.tmp: 1800 files added (on-disk size: 6619.1 KB)
+0081.349 (0) Zip: backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-plugins.zip.tmp: 1900 files added (on-disk size: 6619.1 KB)
+0081.582 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (14.5 MB, 431 (1934) files added so far); re-opening (prior size: 6619.1 KB)
+0101.214 (0) Zip: backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-plugins.zip.tmp: 2000 files added (on-disk size: 10550.2 KB)
+0101.903 (0) Zip: backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-plugins.zip.tmp: 2100 files added (on-disk size: 10550.2 KB)
+0102.742 (0) Zip: backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-plugins.zip.tmp: 2200 files added (on-disk size: 10550.2 KB)
+0103.431 (0) Zip: backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-plugins.zip.tmp: 2300 files added (on-disk size: 10550.2 KB)
+0103.579 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.4 MB, 384 (2318) files added so far); re-opening (prior size: 10550.2 KB)
+0113.149 (0) Zip: backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-plugins.zip.tmp: 2400 files added (on-disk size: 11334.5 KB)
+0113.837 (0) Zip: backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-plugins.zip.tmp: 2500 files added (on-disk size: 11334.5 KB)
+0114.397 (0) Zip: backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-plugins.zip.tmp: 2600 files added (on-disk size: 11334.5 KB)
+0115.052 (0) Zip: backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-plugins.zip.tmp: 2700 files added (on-disk size: 11334.5 KB)
+0115.593 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (5.8 MB, 462 (2780) files added so far); re-opening (prior size: 11334.5 KB)
+0127.720 (0) Zip: backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-plugins.zip.tmp: 2800 files added (on-disk size: 13180.7 KB)
+0128.127 (0) Zip: backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-plugins.zip.tmp: 2900 files added (on-disk size: 13180.7 KB)
+0128.631 (0) Zip: backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-plugins.zip.tmp: 3000 files added (on-disk size: 13180.7 KB)
+0129.114 (0) Zip: backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-plugins.zip.tmp: 3100 files added (on-disk size: 13180.7 KB)
+0129.670 (0) Zip: backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-plugins.zip.tmp: 3200 files added (on-disk size: 13180.7 KB)
+0130.253 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4.6 MB, 3353 files batched, 501 (3281) added so far); re-opening (prior size: 13180.7 KB)
+0139.593 (0) Zip: backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-plugins.zip.tmp: 3300 files added (on-disk size: 14453.2 KB)
+0141.972 (0) Created plugins zip (0) - 14526 KB in 141.3 s (102.8 KB/s) (sha1: 8a1ef31f7f852bd524408c57aa989d70fdae3f14, sha256: b271057218b88d2a295ef44ed52512d953454fc362bbb2850ac79b9aafdfc083)
+0142.026 (0) Beginning creation of dump of themes (split every: 400 MB)
+0150.127 (0) Total entities for the zip file: 109 directories, 642 files (0 skipped as non-modified), 12.6 MB
+0150.165 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0150.758 (0) Zip: backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-themes.zip.tmp: 100 files added (on-disk size: 15.9 KB)
+0151.193 (0) Zip: backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-themes.zip.tmp: 200 files added (on-disk size: 15.9 KB)
+0151.732 (0) Zip: backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-themes.zip.tmp: 300 files added (on-disk size: 15.9 KB)
+0152.261 (0) Zip: backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-themes.zip.tmp: 400 files added (on-disk size: 15.9 KB)
+0152.577 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (8.6 MB, 474 (475) files added so far); re-opening (prior size: 15.9 KB)
+0169.020 (0) Zip: backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-themes.zip.tmp: 500 files added (on-disk size: 6142.7 KB)
+0169.681 (0) Zip: backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-themes.zip.tmp: 600 files added (on-disk size: 6142.7 KB)
+0174.477 (0) Created themes zip (0) - 9345.3 KB in 32.4 s (288.2 KB/s) (sha1: 5ea9cb8b59fa1911f9699e9e8a71cedcd935942c, sha256: 06f1aae28f5d7ec3d81dabc7de89fc1666bbb1d709b0185dd3c6d962675e45db)
+0174.532 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0174.561 (0) Looking for candidates to back up in: D:\home\site\wwwroot/wp-content/uploads
+0174.595 (0) finding files: 2017: adding to list (1)
+0174.620 (0) finding files: wc-logs: adding to list (2)
+0174.641 (0) finding files: woocommerce_uploads: adding to list (3)
+0174.661 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0177.143 (0) Total entities for the zip file: 7 directories, 189 files (0 skipped as non-modified), 4.5 MB
+0177.482 (0) Zip: backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0177.585 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (3.2 MB, 123 (123) files added so far); re-opening (prior size: 0 KB)
+0189.038 (0) Created uploads zip (0) - 4198.4 KB in 14.3 s (292.6 KB/s) (sha1: 72c0b65803e3aebaa11e051aa3b41a54c47b02de, sha256: 93734dba393716375ee731a93cbede10a3f9a81cb52f1709243d411da15738b7)
+0189.110 (0) Beginning backup of other directories found in the content directory (index: 0)
+0189.130 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0189.152 (0) Looking for candidates to back up in: D:\home\site\wwwroot/wp-content
+0189.178 (0) finding files: index.php: adding to list (1)
+0189.202 (0) finding files: plugins: skipping: this is the plugins directory
+0189.222 (0) finding files: themes: skipping: this is the themes directory
+0189.242 (0) finding files: updraft: skipping: this is the updraft directory
+0189.265 (0) finding files: upgrade: skipping: excluded by options
+0189.285 (0) finding files: uploads: skipping: this is the uploads directory
+0189.346 (0) Total entities for the zip file: 0 directories, 1 files (0 skipped as non-modified), 0 MB
+0189.493 (0) Created others zip (0) - 0.1 KB in 0.2 s (0.8 KB/s) (sha1: 24ef65953abd9211e9458e0d79be4978288d3856, sha256: b94b2ea6d91e9e7b61714db1a3d1c235a8198ceddec43257a61a1358b902a4b9)
+0189.584 (0) Saving backup status to database (elements: 8)
+0189.624 (0) Beginning creation of database dump (WordPress DB)
+0190.044 (0) Testing: D:\Program Files\MySQL\MySQL Server 5.1\bin\mysqldump.exe
+0190.176 (0) Binary mysqldump: error (code: 2)
+0190.782 (0) Table wp_options: Total expected rows (approximate): 534
+0190.940 (0) Table wp_options: Total rows added: 540 in 0.14 seconds
+0190.980 (0) Table wp_options: finishing file (backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-db-table-wp_options.table.gz - 166 KB)
+0191.065 (0) Table wp_users: Total expected rows (approximate): 0
+0191.088 (0) Table wp_users: Total rows added: 1 in 0.00 seconds
+0191.110 (0) Table wp_users: finishing file (backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-db-table-wp_users.table.gz - 0.6 KB)
+0191.197 (0) Table wp_usermeta: Total expected rows (approximate): 25
+0191.219 (0) Table wp_usermeta: Total rows added: 29 in 0.00 seconds
+0191.241 (0) Table wp_usermeta: finishing file (backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-db-table-wp_usermeta.table.gz - 1.4 KB)
+0191.329 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0191.349 (0) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+0191.372 (0) Table wp_commentmeta: finishing file (backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0191.507 (0) Table wp_comments: Total expected rows (approximate): 0
+0191.531 (0) Table wp_comments: Total rows added: 1 in 0.00 seconds
+0191.557 (0) Table wp_comments: finishing file (backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-db-table-wp_comments.table.gz - 0.7 KB)
+0191.729 (0) Table wp_links: Total expected rows (approximate): 0
+0191.765 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0191.790 (0) Table wp_links: finishing file (backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-db-table-wp_links.table.gz - 0.4 KB)
+0191.886 (0) Table wp_postmeta: Total expected rows (approximate): 728
+0191.929 (0) Table wp_postmeta: Total rows added: 728 in 0.02 seconds
+0191.957 (0) Table wp_postmeta: finishing file (backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-db-table-wp_postmeta.table.gz - 9.3 KB)
+0192.035 (0) Table wp_posts: Total expected rows (approximate): 207
+0192.103 (0) Table wp_posts: Total rows added: 207 in 0.05 seconds
+0192.129 (0) Table wp_posts: finishing file (backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-db-table-wp_posts.table.gz - 20.3 KB)
+0192.229 (0) Table wp_term_relationships: Total expected rows (approximate): 48
+0192.252 (0) Table wp_term_relationships: Total rows added: 48 in 0.00 seconds
+0192.274 (0) Table wp_term_relationships: finishing file (backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-db-table-wp_term_relationships.table.gz - 0.5 KB)
+0192.356 (0) Table wp_term_taxonomy: Total expected rows (approximate): 17
+0192.377 (0) Table wp_term_taxonomy: Total rows added: 20 in 0.00 seconds
+0192.398 (0) Table wp_term_taxonomy: finishing file (backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-db-table-wp_term_taxonomy.table.gz - 0.6 KB)
+0192.601 (0) Table wp_termmeta: Total expected rows (approximate): 6
+0192.624 (0) Table wp_termmeta: Total rows added: 6 in 0.00 seconds
+0192.649 (0) Table wp_termmeta: finishing file (backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-db-table-wp_termmeta.table.gz - 0.5 KB)
+0192.733 (0) Table wp_terms: Total expected rows (approximate): 17
+0192.758 (0) Table wp_terms: Total rows added: 20 in 0.00 seconds
+0192.784 (0) Table wp_terms: finishing file (backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-db-table-wp_terms.table.gz - 0.6 KB)
+0192.912 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (approximate): 0
+0192.934 (0) Table wp_woocommerce_order_itemmeta: Total rows added: 0 in 0.00 seconds
+0192.956 (0) Table wp_woocommerce_order_itemmeta: finishing file (backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-db-table-wp_woocommerce_order_itemmeta.table.gz - 0.4 KB)
+0193.064 (0) Table wp_woocommerce_payment_tokenmeta: Total expected rows (approximate): 0
+0193.090 (0) Table wp_woocommerce_payment_tokenmeta: Total rows added: 0 in 0.00 seconds
+0193.112 (0) Table wp_woocommerce_payment_tokenmeta: finishing file (backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-db-table-wp_woocommerce_payment_tokenmeta.table.gz - 0.4 KB)
+0193.213 (0) Table wp_woocommerce_api_keys: Total expected rows (approximate): 0
+0193.235 (0) Table wp_woocommerce_api_keys: Total rows added: 0 in 0.00 seconds
+0193.260 (0) Table wp_woocommerce_api_keys: finishing file (backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-db-table-wp_woocommerce_api_keys.table.gz - 0.4 KB)
+0193.360 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (approximate): 0
+0193.384 (0) Table wp_woocommerce_attribute_taxonomies: Total rows added: 0 in 0.00 seconds
+0193.407 (0) Table wp_woocommerce_attribute_taxonomies: finishing file (backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-db-table-wp_woocommerce_attribute_taxonomies.table.gz - 0.4 KB)
+0193.499 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (approximate): 0
+0193.524 (0) Table wp_woocommerce_downloadable_product_permissions: Total rows added: 0 in 0.00 seconds
+0193.546 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file (backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-db-table-wp_woocommerce_downloadable_product_permissions.table.gz - 0.5 KB)
+0193.637 (0) Table wp_woocommerce_log: Total expected rows (approximate): 0
+0193.664 (0) Table wp_woocommerce_log: Total rows added: 0 in 0.00 seconds
+0193.691 (0) Table wp_woocommerce_log: finishing file (backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-db-table-wp_woocommerce_log.table.gz - 0.4 KB)
+0193.780 (0) Table wp_woocommerce_order_items: Total expected rows (approximate): 0
+0193.804 (0) Table wp_woocommerce_order_items: Total rows added: 0 in 0.00 seconds
+0193.831 (0) Table wp_woocommerce_order_items: finishing file (backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-db-table-wp_woocommerce_order_items.table.gz - 0.4 KB)
+0193.963 (0) Table wp_woocommerce_payment_tokens: Total expected rows (approximate): 0
+0193.990 (0) Table wp_woocommerce_payment_tokens: Total rows added: 0 in 0.00 seconds
+0194.014 (0) Table wp_woocommerce_payment_tokens: finishing file (backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-db-table-wp_woocommerce_payment_tokens.table.gz - 0.4 KB)
+0194.106 (0) Table wp_woocommerce_sessions: Total expected rows (approximate): 1
+0194.129 (0) Table wp_woocommerce_sessions: Total rows added: 1 in 0.00 seconds
+0194.154 (0) Table wp_woocommerce_sessions: finishing file (backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-db-table-wp_woocommerce_sessions.table.gz - 0.8 KB)
+0194.264 (0) Table wp_woocommerce_shipping_zone_locations: Total expected rows (approximate): 0
+0194.288 (0) Table wp_woocommerce_shipping_zone_locations: Total rows added: 0 in 0.00 seconds
+0194.311 (0) Table wp_woocommerce_shipping_zone_locations: finishing file (backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-db-table-wp_woocommerce_shipping_zone_locations.table.gz - 0.4 KB)
+0194.423 (0) Table wp_woocommerce_shipping_zone_methods: Total expected rows (approximate): 0
+0194.444 (0) Table wp_woocommerce_shipping_zone_methods: Total rows added: 0 in 0.00 seconds
+0194.467 (0) Table wp_woocommerce_shipping_zone_methods: finishing file (backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-db-table-wp_woocommerce_shipping_zone_methods.table.gz - 0.4 KB)
+0194.555 (0) Table wp_woocommerce_shipping_zones: Total expected rows (approximate): 0
+0194.577 (0) Table wp_woocommerce_shipping_zones: Total rows added: 0 in 0.00 seconds
+0194.599 (0) Table wp_woocommerce_shipping_zones: finishing file (backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-db-table-wp_woocommerce_shipping_zones.table.gz - 0.3 KB)
+0194.691 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (approximate): 0
+0194.713 (0) Table wp_woocommerce_tax_rate_locations: Total rows added: 0 in 0.00 seconds
+0194.739 (0) Table wp_woocommerce_tax_rate_locations: finishing file (backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-db-table-wp_woocommerce_tax_rate_locations.table.gz - 0.4 KB)
+0194.828 (0) Table wp_woocommerce_tax_rates: Total expected rows (approximate): 0
+0194.851 (0) Table wp_woocommerce_tax_rates: Total rows added: 0 in 0.00 seconds
+0194.873 (0) Table wp_woocommerce_tax_rates: finishing file (backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-db-table-wp_woocommerce_tax_rates.table.gz - 0.4 KB)
+0194.952 (0) backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-db-table-wp_options.table.gz (1/26): adding to final database dump
+0195.079 (0) backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-db-table-wp_users.table.gz (2/26): adding to final database dump
+0195.116 (0) backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-db-table-wp_usermeta.table.gz (3/26): adding to final database dump
+0195.142 (0) backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-db-table-wp_commentmeta.table.gz (4/26): adding to final database dump
+0195.177 (0) backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-db-table-wp_comments.table.gz (5/26): adding to final database dump
+0195.266 (0) backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-db-table-wp_links.table.gz (6/26): adding to final database dump
+0195.292 (0) backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-db-table-wp_postmeta.table.gz (7/26): adding to final database dump
+0195.327 (0) backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-db-table-wp_posts.table.gz (8/26): adding to final database dump
+0195.371 (0) backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-db-table-wp_term_relationships.table.gz (9/26): adding to final database dump
+0195.400 (0) backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-db-table-wp_term_taxonomy.table.gz (10/26): adding to final database dump
+0195.426 (0) backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-db-table-wp_termmeta.table.gz (11/26): adding to final database dump
+0195.453 (0) backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-db-table-wp_terms.table.gz (12/26): adding to final database dump
+0195.483 (0) backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-db-table-wp_woocommerce_order_itemmeta.table.gz (13/26): adding to final database dump
+0195.517 (0) backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-db-table-wp_woocommerce_payment_tokenmeta.table.gz (14/26): adding to final database dump
+0195.544 (0) backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-db-table-wp_woocommerce_api_keys.table.gz (15/26): adding to final database dump
+0195.571 (0) backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-db-table-wp_woocommerce_attribute_taxonomies.table.gz (16/26): adding to final database dump
+0195.628 (0) backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (17/26): adding to final database dump
+0195.655 (0) backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-db-table-wp_woocommerce_log.table.gz (18/26): adding to final database dump
+0195.681 (0) backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-db-table-wp_woocommerce_order_items.table.gz (19/26): adding to final database dump
+0195.706 (0) backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-db-table-wp_woocommerce_payment_tokens.table.gz (20/26): adding to final database dump
+0195.744 (0) backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-db-table-wp_woocommerce_sessions.table.gz (21/26): adding to final database dump
+0195.770 (0) backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-db-table-wp_woocommerce_shipping_zone_locations.table.gz (22/26): adding to final database dump
+0195.798 (0) backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-db-table-wp_woocommerce_shipping_zone_methods.table.gz (23/26): adding to final database dump
+0195.823 (0) backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-db-table-wp_woocommerce_shipping_zones.table.gz (24/26): adding to final database dump
+0195.847 (0) backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-db-table-wp_woocommerce_tax_rate_locations.table.gz (25/26): adding to final database dump
+0195.872 (0) backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-db-table-wp_woocommerce_tax_rates.table.gz (26/26): adding to final database dump
+0195.915 (0) backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-db.gz: finished writing out complete database file (0 KB)
+0196.277 (0) Total database tables backed up: 26 (backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-db.gz, size: 205495, sha256)
+0196.357 (0) backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0196.377 (0) backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0196.396 (0) backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0196.417 (0) backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-others.zip: others: This file has not yet been successfully uploaded: will queue
+0196.435 (0) backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-db.gz: db: This file has not yet been successfully uploaded: will queue
+0196.459 (0) Saving backup history. Total backup size: 27.6 MB
+0196.504 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0196.576 (0) Cloud backup selection (1/1): googledrive (last)
+0196.599 (0) Beginning dispatch of backup to remote (googledrive)
+0196.664 (0) Google Drive: requesting access token: client_id=570935018176-pilasekjk3vvnbog97nlvd6j78pevhp3.apps.googleusercontent.com
+0196.867 (0) Google Drive: successfully obtained access token
+0198.058 (0) Google Drive quota usage: used=149.1 MB, total=15360 MB, available=15210.9 MB
+0198.091 (0) backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-plugins.zip: Attempting to upload to Google Drive (into folder id: 0B0aJHxgQXrLhOFpwYXREUFBFdHM)
+0198.701 (0) Googledrive chunked upload: 7 % uploaded (1048576)
+0198.972 (0) Googledrive chunked upload: 14.1 % uploaded (2097152)
+0199.251 (0) Googledrive chunked upload: 21.1 % uploaded (3145728)
+0199.532 (0) Googledrive chunked upload: 28.2 % uploaded (4194304)
+0199.850 (0) Googledrive chunked upload: 35.2 % uploaded (5242880)
+0200.174 (0) Googledrive chunked upload: 42.3 % uploaded (6291456)
+0200.476 (0) Googledrive chunked upload: 49.3 % uploaded (7340032)
+0200.788 (0) Googledrive chunked upload: 56.4 % uploaded (8388608)
+0201.061 (0) Googledrive chunked upload: 63.4 % uploaded (9437184)
+0201.421 (0) Googledrive chunked upload: 70.5 % uploaded (10485760)
+0201.769 (0) Googledrive chunked upload: 77.5 % uploaded (11534336)
+0202.095 (0) Googledrive chunked upload: 84.6 % uploaded (12582912)
+0202.389 (0) Googledrive chunked upload: 91.6 % uploaded (13631488)
+0202.685 (0) Googledrive chunked upload: 98.7 % uploaded (14680064)
+0203.694 (0) Googledrive chunked upload: 100 % uploaded (14680064)
+0203.754 (0) OK: Archive backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-plugins.zip uploaded to Google Drive in 5.63 seconds
+0203.806 (0) Recording as successfully uploaded: backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-plugins.zip (3c0d22860042965071d5abd0c5c75ceb)
+0203.913 (0) Deleting local file: backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-plugins.zip: OK
+0204.151 (0) Google Drive quota usage: used=163.2 MB, total=15360 MB, available=15196.8 MB
+0204.174 (0) backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-themes.zip: Attempting to upload to Google Drive (into folder id: 0B0aJHxgQXrLhOFpwYXREUFBFdHM)
+0204.699 (0) Googledrive chunked upload: 11 % uploaded (1048576)
+0205.010 (0) Googledrive chunked upload: 21.9 % uploaded (2097152)
+0205.314 (0) Googledrive chunked upload: 32.9 % uploaded (3145728)
+0205.618 (0) Googledrive chunked upload: 43.8 % uploaded (4194304)
+0205.919 (0) Googledrive chunked upload: 54.8 % uploaded (5242880)
+0206.244 (0) Googledrive chunked upload: 65.7 % uploaded (6291456)
+0206.556 (0) Googledrive chunked upload: 76.7 % uploaded (7340032)
+0206.826 (0) Googledrive chunked upload: 87.7 % uploaded (8388608)
+0207.153 (0) Googledrive chunked upload: 98.6 % uploaded (9437184)
+0207.930 (0) Googledrive chunked upload: 100 % uploaded (9437184)
+0208.006 (0) OK: Archive backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-themes.zip uploaded to Google Drive in 3.81 seconds
+0208.050 (0) Recording as successfully uploaded: backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-themes.zip (d2664448ffd673b6ff6b24267ae747db)
+0208.151 (0) Deleting local file: backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-themes.zip: OK
+0208.386 (0) Google Drive quota usage: used=172.4 MB, total=15360 MB, available=15187.6 MB
+0208.409 (0) backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-uploads.zip: Attempting to upload to Google Drive (into folder id: 0B0aJHxgQXrLhOFpwYXREUFBFdHM)
+0208.870 (0) Googledrive chunked upload: 24.4 % uploaded (1048576)
+0209.191 (0) Googledrive chunked upload: 48.8 % uploaded (2097152)
+0209.525 (0) Googledrive chunked upload: 73.2 % uploaded (3145728)
+0209.837 (0) Googledrive chunked upload: 97.6 % uploaded (4194304)
+0210.723 (0) Googledrive chunked upload: 100 % uploaded (4194304)
+0210.790 (0) OK: Archive backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-uploads.zip uploaded to Google Drive in 2.36 seconds
+0210.835 (0) Recording as successfully uploaded: backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-uploads.zip (025b8448b65ad36f9fcfb184a05b051b)
+0210.916 (0) Deleting local file: backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-uploads.zip: OK
+0211.153 (0) Google Drive quota usage: used=176.5 MB, total=15360 MB, available=15183.5 MB
+0211.173 (0) backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-others.zip: Attempting to upload to Google Drive (into folder id: 0B0aJHxgQXrLhOFpwYXREUFBFdHM)
+0212.094 (0) Googledrive chunked upload: 100 % uploaded
+0212.155 (0) OK: Archive backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-others.zip uploaded to Google Drive in 0.96 seconds
+0212.200 (0) Recording as successfully uploaded: backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-others.zip (9abee73dfbb8ce4d708f228dbaa3bf18)
+0212.291 (0) Deleting local file: backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-others.zip: OK
+0212.543 (0) Google Drive quota usage: used=176.5 MB, total=15360 MB, available=15183.5 MB
+0212.563 (0) backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-db.gz: Attempting to upload to Google Drive (into folder id: 0B0aJHxgQXrLhOFpwYXREUFBFdHM)
+0213.501 (0) Googledrive chunked upload: 100 % uploaded
+0213.633 (0) OK: Archive backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-db.gz uploaded to Google Drive in 1.03 seconds
+0213.677 (0) Recording as successfully uploaded: backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-db.gz (6ef71b1289e29375c88ec2e12c7ffca6)
+0213.758 (0) Deleting local file: backup_2017-08-17-0320_Chess_Across_Borders_0edf73ebc996-db.gz: OK
+0213.806 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0213.837 (0) Number of backup sets in history: 1; groups (db): 1
+0213.887 (0) Examining (for databases) backup set with group_id=0, nonce=0edf73ebc996, datestamp=1502925602 (Aug 16 2017 23:20:02)
+0213.921 (0) This backup set is the backup set just made, so will not be deleted.
+0213.945 (0) Number of backup sets in history: 1; groups (files): 1
+0213.965 (0) Examining (for files) backup set with nonce=0edf73ebc996, datestamp=1502925602 (Aug 16 2017 23:20:02)
+0213.993 (0) This backup set is the backup set just made, so will not be deleted.
+0214.013 (0) This backup set is the backup set just made, so will not be deleted.
+0214.014 (0) This backup set is the backup set just made, so will not be deleted.
+0214.015 (0) This backup set is the backup set just made, so will not be deleted.
+0214.016 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0214.043 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0214.087 (0) Resume backup (0edf73ebc996, 0): finish run
+0214.179 (0) Decremented the semaphore (fd) by 1
+0214.219 (0) Semaphore (fd) unlocked
+0214.248 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0214.341 (0) Fetching RSS news feed
+0215.878 (0) Fetched RSS news feed; result is a: SimplePie
+0216.129 (0) Sending email ('Files and database (Full backup)') report (attachments: 0, size: 0 KB) to: Darry...
+0216.465 (0) The backup apparently succeeded and is now complete

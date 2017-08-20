@@ -1,0 +1,594 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.4.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-08-27 13:22+0900\n"
+"PO-Revision-Date: 2015-08-27 13:24+0900\n"
+"Last-Translator: Hiroshi Sawai <info@info-town.jp>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.5.5\n"
+
+#: 404.php:8
+msgid "We're sorry."
+msgstr ""
+
+#: 404.php:18
+msgid "It was not possible to find the page you are looking for."
+msgstr ""
+
+#: 404.php:25
+msgid "HOME"
+msgstr ""
+
+#: 404.php:31 archive.php:57 functions.php:47 index.php:81 index.php:107
+#: page.php:22 single.php:51
+msgid "page top"
+msgstr ""
+
+#: archive.php:41 index.php:72
+msgid "read more"
+msgstr ""
+
+#: archive.php:69 index.php:94
+msgid "Previous page"
+msgstr ""
+
+#: archive.php:70 index.php:95
+msgid "Next page"
+msgstr ""
+
+#: archive.php:72
+msgid "Page"
+msgstr ""
+
+#: comments.php:26
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:33 comments.php:51
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:34 comments.php:52
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:35 comments.php:53
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:58
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:19
+msgid "All Rights Reserved"
+msgstr ""
+
+#: functions.php:15
+msgid "permalink"
+msgstr ""
+
+#: functions.php:23
+msgid "no tag"
+msgstr ""
+
+#: functions.php:27
+msgid "Comments (0)"
+msgstr ""
+
+#: functions.php:28
+msgid "Comments (1)"
+msgstr ""
+
+#: functions.php:29
+msgid "Comments (%)"
+msgstr ""
+
+#: functions.php:66
+msgid "page back"
+msgstr ""
+
+#: header.php:134
+msgid "menu"
+msgstr ""
+
+#: inc/kanagata-customize.php:26
+msgid "StyleSheet Version"
+msgstr ""
+
+#: inc/kanagata-customize.php:42
+msgid ""
+"For compatibility with previous versions, Can select stylesheet version."
+msgstr ""
+
+#: inc/kanagata-customize.php:47
+msgid "latest"
+msgstr ""
+
+#: inc/kanagata-customize.php:48
+msgid "1.2.4 or below"
+msgstr ""
+
+#: inc/kanagata-customize.php:58
+msgid "Sidebar Layout"
+msgstr ""
+
+#: inc/kanagata-customize.php:74
+msgid "Select sidebar Position"
+msgstr ""
+
+#: inc/kanagata-customize.php:79 inc/kanagata-options.php:159
+msgid "Right sidebar"
+msgstr ""
+
+#: inc/kanagata-customize.php:80 inc/kanagata-options.php:163
+msgid "Left sidebar"
+msgstr ""
+
+#: inc/kanagata-customize.php:102
+msgid "Logo image"
+msgstr ""
+
+#: inc/kanagata-customize.php:122
+msgid "Display Site Title"
+msgstr ""
+
+#: inc/kanagata-customize.php:127 inc/kanagata-customize.php:279
+#: inc/kanagata-customize.php:1531 inc/kanagata-customize.php:1608
+#: inc/kanagata-customize.php:1636 inc/kanagata-options.php:180
+msgid "Yes"
+msgstr ""
+
+#: inc/kanagata-customize.php:128 inc/kanagata-customize.php:280
+#: inc/kanagata-customize.php:1532 inc/kanagata-customize.php:1609
+#: inc/kanagata-customize.php:1637 inc/kanagata-options.php:184
+msgid "No"
+msgstr ""
+
+#: inc/kanagata-customize.php:145
+msgid "color"
+msgstr ""
+
+#: inc/kanagata-customize.php:157
+msgid "Site Link"
+msgstr ""
+
+#: inc/kanagata-customize.php:159
+msgid "Select site Link style"
+msgstr ""
+
+#: inc/kanagata-customize.php:176
+msgid "link color"
+msgstr ""
+
+#: inc/kanagata-customize.php:195
+msgid "Non-visit link color"
+msgstr ""
+
+#: inc/kanagata-customize.php:214
+msgid "Press link color"
+msgstr ""
+
+#: inc/kanagata-customize.php:233
+msgid "Visited link color"
+msgstr ""
+
+#: inc/kanagata-customize.php:252
+msgid "Mouse over link color"
+msgstr ""
+
+#: inc/kanagata-customize.php:272
+msgid "Whether or not display link underline."
+msgstr ""
+
+#: inc/kanagata-customize.php:300
+msgid "Global menu"
+msgstr ""
+
+#: inc/kanagata-customize.php:319
+msgid "Global menu dropdown"
+msgstr ""
+
+#: inc/kanagata-customize.php:338
+msgid "Extra menu dropdown"
+msgstr ""
+
+#: inc/kanagata-customize.php:357
+msgid "Sidebar"
+msgstr ""
+
+#: inc/kanagata-customize.php:376
+msgid "Pager"
+msgstr ""
+
+#: inc/kanagata-customize.php:395
+msgid "Heading Background Color"
+msgstr ""
+
+#: inc/kanagata-customize.php:408
+msgid "Size"
+msgstr ""
+
+#: inc/kanagata-customize.php:410
+msgid ""
+"You will do the settings for size. Please enter , including the unit(ie px, "
+"em, rem)."
+msgstr ""
+
+#: inc/kanagata-customize.php:434
+msgid "static page title font size"
+msgstr ""
+
+#: inc/kanagata-customize.php:454
+msgid "enable static page title font size setting."
+msgstr ""
+
+#: inc/kanagata-customize.php:477
+msgid "Static page title top margin size"
+msgstr ""
+
+#: inc/kanagata-customize.php:497
+msgid "enable Static page title top margin size."
+msgstr ""
+
+#: inc/kanagata-customize.php:520
+msgid "Static page title bottom margin size"
+msgstr ""
+
+#: inc/kanagata-customize.php:540
+msgid "enable Static page title bottom margin size."
+msgstr ""
+
+#: inc/kanagata-customize.php:566
+msgid "Heading 1 font size"
+msgstr ""
+
+#: inc/kanagata-customize.php:586
+msgid "enable Heading 1 font size."
+msgstr ""
+
+#: inc/kanagata-customize.php:609
+msgid "Heading 1 top margin size"
+msgstr ""
+
+#: inc/kanagata-customize.php:629
+msgid "enable Heading 1 top margin size."
+msgstr ""
+
+#: inc/kanagata-customize.php:652
+msgid "Heading 1 bottom margin size"
+msgstr ""
+
+#: inc/kanagata-customize.php:672
+msgid "enable Heading 1 bottom margin size."
+msgstr ""
+
+#: inc/kanagata-customize.php:698
+msgid "Heading 2 font size"
+msgstr ""
+
+#: inc/kanagata-customize.php:718
+msgid "enable Heading 2 font size."
+msgstr ""
+
+#: inc/kanagata-customize.php:741
+msgid "Heading 2 top margin size"
+msgstr ""
+
+#: inc/kanagata-customize.php:761
+msgid "enable Heading 2 top margin size."
+msgstr ""
+
+#: inc/kanagata-customize.php:784
+msgid "Heading 2 bottom margin size"
+msgstr ""
+
+#: inc/kanagata-customize.php:804
+msgid "enable Heading 2 bottom margin size."
+msgstr ""
+
+#: inc/kanagata-customize.php:830
+msgid "Heading 3 font size"
+msgstr ""
+
+#: inc/kanagata-customize.php:850
+msgid "enable Heading 3 font size."
+msgstr ""
+
+#: inc/kanagata-customize.php:873
+msgid "Heading 3 top margin size"
+msgstr ""
+
+#: inc/kanagata-customize.php:893
+msgid "enable Heading 3 top margin size."
+msgstr ""
+
+#: inc/kanagata-customize.php:916
+msgid "Heading 3 bottom margin size"
+msgstr ""
+
+#: inc/kanagata-customize.php:936
+msgid "enable Heading 3 bottom margin size."
+msgstr ""
+
+#: inc/kanagata-customize.php:962
+msgid "Heading 4 font size"
+msgstr ""
+
+#: inc/kanagata-customize.php:982
+msgid "enable Heading 4 font size."
+msgstr ""
+
+#: inc/kanagata-customize.php:1005
+msgid "Heading 4 top margin size"
+msgstr ""
+
+#: inc/kanagata-customize.php:1025
+msgid "enable Heading 4 top margin size."
+msgstr ""
+
+#: inc/kanagata-customize.php:1048
+msgid "Heading 4 bottom margin size"
+msgstr ""
+
+#: inc/kanagata-customize.php:1068
+msgid "enable Heading 4 bottom margin size."
+msgstr ""
+
+#: inc/kanagata-customize.php:1094
+msgid "Heading 5 font size"
+msgstr ""
+
+#: inc/kanagata-customize.php:1114
+msgid "enable Heading 5 font size."
+msgstr ""
+
+#: inc/kanagata-customize.php:1137
+msgid "Heading 5 top margin size"
+msgstr ""
+
+#: inc/kanagata-customize.php:1157
+msgid "enable Heading 5 top margin size."
+msgstr ""
+
+#: inc/kanagata-customize.php:1180
+msgid "Heading 5 bottom margin size"
+msgstr ""
+
+#: inc/kanagata-customize.php:1200
+msgid "enable Heading 5 bottom margin size."
+msgstr ""
+
+#: inc/kanagata-customize.php:1226
+msgid "Heading 6 font size"
+msgstr ""
+
+#: inc/kanagata-customize.php:1246
+msgid "enable Heading 6 font size."
+msgstr ""
+
+#: inc/kanagata-customize.php:1269
+msgid "Heading 6 top margin size"
+msgstr ""
+
+#: inc/kanagata-customize.php:1289
+msgid "enable Heading 6 top margin size."
+msgstr ""
+
+#: inc/kanagata-customize.php:1312
+msgid "Heading 6 bottom margin size"
+msgstr ""
+
+#: inc/kanagata-customize.php:1332
+msgid "enable Heading 6 bottom margin size."
+msgstr ""
+
+#: inc/kanagata-customize.php:1346
+msgid "Header right area"
+msgstr ""
+
+#: inc/kanagata-customize.php:1348
+msgid "This area display on header right area"
+msgstr ""
+
+#: inc/kanagata-customize.php:1363
+msgid "Item text"
+msgstr ""
+
+#: inc/kanagata-customize.php:1382
+msgid "Item link"
+msgstr ""
+
+#: inc/kanagata-customize.php:1401
+msgid "Item color"
+msgstr ""
+
+#: inc/kanagata-customize.php:1422
+msgid "Item image"
+msgstr ""
+
+#: inc/kanagata-customize.php:1435
+msgid "Footer"
+msgstr ""
+
+#: inc/kanagata-customize.php:1452
+msgid "footer background color"
+msgstr ""
+
+#: inc/kanagata-customize.php:1471
+msgid "copy right"
+msgstr ""
+
+#: inc/kanagata-customize.php:1490
+msgid "align of Footer Menu that can be set at Appearance > Menu"
+msgstr ""
+
+#: inc/kanagata-customize.php:1495
+msgid "Left"
+msgstr ""
+
+#: inc/kanagata-customize.php:1496
+msgid "Right"
+msgstr ""
+
+#: inc/kanagata-customize.php:1506
+msgid "Select to display post meta"
+msgstr ""
+
+#: inc/kanagata-customize.php:1509
+msgid "Select whether or not to display post meta."
+msgstr ""
+
+#: inc/kanagata-customize.php:1526
+msgid "post meta"
+msgstr ""
+
+#: inc/kanagata-customize.php:1542
+msgid "Category list displaying top page"
+msgstr ""
+
+#: inc/kanagata-customize.php:1545
+msgid ""
+"Input specific category name. that category post is shown on the top page as "
+"a list."
+msgstr ""
+
+#: inc/kanagata-customize.php:1563
+msgid "Category name"
+msgstr ""
+
+#: inc/kanagata-customize.php:1582 inc/kanagata-options-edit.php:94
+msgid "Item number included in the list"
+msgstr ""
+
+#: inc/kanagata-customize.php:1601 inc/kanagata-options-edit.php:111
+msgid ""
+"Whether or not display regular latest post when you display Specific "
+"category list."
+msgstr ""
+
+#: inc/kanagata-customize.php:1629
+msgid "Select whether or not header image is slide."
+msgstr ""
+
+#: inc/kanagata-init.php:50
+msgid "Global Menu"
+msgstr ""
+
+#: inc/kanagata-init.php:51
+msgid "Extra Menu"
+msgstr ""
+
+#: inc/kanagata-init.php:52
+msgid "Side Menu"
+msgstr ""
+
+#: inc/kanagata-init.php:53
+msgid "Footer Menu"
+msgstr ""
+
+#: inc/kanagata-init.php:195
+msgid "Common"
+msgstr ""
+
+#: inc/kanagata-init.php:197
+msgid "This is the sidebar to display on all page."
+msgstr ""
+
+#: inc/kanagata-init.php:207
+msgid "Home"
+msgstr ""
+
+#: inc/kanagata-init.php:208
+msgid "Top Content on the home page"
+msgstr ""
+
+#: inc/kanagata-init.php:216
+msgid "Sub"
+msgstr ""
+
+#: inc/kanagata-init.php:218
+msgid "This is the sidebar to display on all page except for the top page."
+msgstr ""
+
+#: inc/kanagata-init.php:249
+msgid "Customize"
+msgstr ""
+
+#: inc/kanagata-init.php:257
+msgid "Menu"
+msgstr ""
+
+#: inc/kanagata-init.php:265 inc/kanagata-options-edit.php:24
+#: inc/kanagata-options.php:21 inc/kanagata-options.php:22
+msgid "Theme Options"
+msgstr ""
+
+#: inc/kanagata-options-edit.php:33 inc/kanagata-options-edit.php:131
+msgid "Save Theme Options"
+msgstr ""
+
+#: inc/kanagata-options-edit.php:35
+msgid "Sidebar layout"
+msgstr ""
+
+#: inc/kanagata-options-edit.php:58
+msgid "Sidebar color"
+msgstr ""
+
+#: inc/kanagata-options-edit.php:72
+msgid "Specific category list for displaying top page"
+msgstr ""
+
+#: inc/kanagata-options-edit.php:74
+msgid "Input specific category name of that is shown on the top page."
+msgstr ""
+
+#: inc/kanagata-options-edit.php:102
+msgid "Display regular latest post"
+msgstr ""
+
+#: inc/kanagata-options-edit.php:134
+msgid "Page top"
+msgstr ""
+
+#: index.php:97
+msgid "page"
+msgstr ""
+
+#: sidebar.php:34 sidebar.php:51
+msgid "This theme is kanagata."
+msgstr ""
+
+#: sidebar.php:35 sidebar.php:52
+msgid "Side bar can be displayed in the following way."
+msgstr ""
+
+#: sidebar.php:38 sidebar.php:55
+msgid "1. Appearance &gt; Widgets."
+msgstr ""
+
+#: sidebar.php:39 sidebar.php:56
+msgid "2. Appearance &gt; menu. Please create a menu named side."
+msgstr ""
+
+#: single.php:30
+msgid "previous post"
+msgstr ""
+
+#: single.php:36
+msgid "next post"
+msgstr ""
